@@ -16,19 +16,84 @@ Console.WriteLine("Hello, World!");
 
 //Sample problem
 //Take i/p student name, marks for 5 subjects and give total marks and avg marks
-Console.WriteLine("Enter student name");
-string name = Console.ReadLine();
-int[] marksArray = new int[5];
-for (int i = 1; i <= 5; i++)
-{
-    Console.WriteLine($"Enter Subject {i} marks:");
-    marksArray[i-1] = Convert.ToInt32(Console.ReadLine());
-}
+//Console.WriteLine("Enter student name");
+//string name = Console.ReadLine();
+//int[] marksArray = new int[5];
+//for (int i = 1; i <= 5; i++)
+//{
+//    Console.WriteLine($"Enter Subject {i} marks:");
+//    marksArray[i-1] = Convert.ToInt32(Console.ReadLine());
+//}
 
-int total = TotalMarks(marksArray);
-float avg = AverageMarks(marksArray);
+//int total = TotalMarks(marksArray);
+//float avg = AverageMarks(marksArray);
 
-Console.WriteLine($"Hello {name}!!, your total marks is {total} and your average marks is {avg}");
+//Console.WriteLine($"Hello {name}!!, your total marks is {total} and your average marks is {avg}");
+
+//Employee program
+//Employee emp = new Employee();
+
+//emp.GetDetails();
+//emp.DisplayDetails();
+//emp.CalculateSalaryDetails();
+
+
+//Console.WriteLine(int.MinValue + " " + int.MaxValue);//all data types have min and max property
+//Product Inventory Program
+//Product product = new Product();
+//char continueOrExit = 'y';
+//do
+//{
+//    Console.WriteLine("------------------------Product Inventory---------------------------");
+//    Console.WriteLine();
+//    Console.WriteLine("Select the required option");
+//    Console.WriteLine();
+//    Console.WriteLine("To enter product details: 1");
+//    Console.WriteLine("To retrieve product details: 2");
+//    Console.WriteLine("To apply discount on product: 3");
+//    int selection = Convert.ToInt32(Console.ReadLine());
+
+//    switch(selection)
+//    {
+//        case 1:
+//            product.getDetails();
+//            Console.WriteLine();
+//            break;
+//        case 2: 
+//            product.printDetails();
+//            Console.WriteLine();
+//            break;
+//        case 3:
+//            Console.WriteLine();
+//            Console.WriteLine("Enter Discount price");
+//            product.ApplyDiscount(Convert.ToDouble(Console.ReadLine())); 
+//            Console.WriteLine(); 
+//            break;
+
+//        default:
+//            Console.WriteLine("Select a valid option");
+//            break;
+
+//    }
+
+//}while(continueOrExit == 'y');
+
+
+//Auto properties
+//AutoPropertyTutorial person = new AutoPropertyTutorial("john", "blr", "25", 777);
+//person.DisplayPersonDetails();
+
+//Multi-level inheritance demo
+//Laptop laptop = new Laptop("ANX", 8.8, 16, "Intel i5", "8 GB", 200, "DELL", 4, 50000, 1.2, "DELL Latitude", "Grey");
+//laptop.DeviceDetails();
+
+//Person - artist class inheritance
+//Artist artist = new Artist(4, 34, null, 25, null, null, null, 12);
+//Console.WriteLine(artist.Name + "This sentance is printing");
+
+IEntreprenur tech = new Techprenure();
+tech.sameMethodName();
+
 
 static int TotalMarks(int[] marks)
 {
