@@ -35,6 +35,7 @@ namespace ConsoleApp1
             Console.WriteLine($"Model Number: {modelNumber}");
             Console.WriteLine($"Battery Life: {batteryLife} hours");
             Console.WriteLine($"Screen size: {screenSize} inches");
+
         }
 
 

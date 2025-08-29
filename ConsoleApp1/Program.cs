@@ -83,16 +83,16 @@ Console.WriteLine("Hello, World!");
 //AutoPropertyTutorial person = new AutoPropertyTutorial("john", "blr", "25", 777);
 //person.DisplayPersonDetails();
 
-//Multi-level inheritance demo
-//Laptop laptop = new Laptop("ANX", 8.8, 16, "Intel i5", "8 GB", 200, "DELL", 4, 50000, 1.2, "DELL Latitude", "Grey");
-//laptop.DeviceDetails();
+//Multi - level inheritance demo
+Laptop laptop = new Laptop("ANX", 8.8, 16, "Intel i5", "8 GB", 200, "DELL", 4, 50000, 1.2, "DELL Latitude", "Grey");
+laptop.DeviceDetails();
 
 //Person - artist class inheritance
 //Artist artist = new Artist(4, 34, null, 25, null, null, null, 12);
 //Console.WriteLine(artist.Name + "This sentance is printing");
 
-IEntreprenur tech = new Techprenure();
-tech.sameMethodName();
+//IEntreprenur tech = new Techprenure();
+//tech.sameMethodName();
 
 
 static int TotalMarks(int[] marks)
